@@ -1,0 +1,9 @@
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/uninstall.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/simple_car_uninstall.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/test.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/edit_cache.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/rebuild_cache.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/list_install_components.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/install.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/install/local.dir
+/home/akash/ros2_ws/build/simple_car/CMakeFiles/install/strip.dir

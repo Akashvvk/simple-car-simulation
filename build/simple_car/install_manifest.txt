@@ -1,0 +1,17 @@
+/home/akash/ros2_ws/install/simple_car/share/simple_car//launch/sim_car.launch.py
+/home/akash/ros2_ws/install/simple_car/share/simple_car//urdf/simple_car.urdf
+/home/akash/ros2_ws/install/simple_car/share/ament_index/resource_index/package_run_dependencies/simple_car
+/home/akash/ros2_ws/install/simple_car/share/ament_index/resource_index/parent_prefix_path/simple_car
+/home/akash/ros2_ws/install/simple_car/share/simple_car/environment/ament_prefix_path.sh
+/home/akash/ros2_ws/install/simple_car/share/simple_car/environment/ament_prefix_path.dsv
+/home/akash/ros2_ws/install/simple_car/share/simple_car/environment/path.sh
+/home/akash/ros2_ws/install/simple_car/share/simple_car/environment/path.dsv
+/home/akash/ros2_ws/install/simple_car/share/simple_car/local_setup.bash
+/home/akash/ros2_ws/install/simple_car/share/simple_car/local_setup.sh
+/home/akash/ros2_ws/install/simple_car/share/simple_car/local_setup.zsh
+/home/akash/ros2_ws/install/simple_car/share/simple_car/local_setup.dsv
+/home/akash/ros2_ws/install/simple_car/share/simple_car/package.dsv
+/home/akash/ros2_ws/install/simple_car/share/ament_index/resource_index/packages/simple_car
+/home/akash/ros2_ws/install/simple_car/share/simple_car/cmake/simple_carConfig.cmake
+/home/akash/ros2_ws/install/simple_car/share/simple_car/cmake/simple_carConfig-version.cmake
+/home/akash/ros2_ws/install/simple_car/share/simple_car/package.xml
