@@ -56,4 +56,12 @@ def generate_launch_description():
             output='screen',
             parameters=[{'robot_description': open(urdf_file).read()}]
         ),
+
+         Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            output='screen',
+            arguments=['-d', '/home/akash/ros2_ws/src/simple_car/rviz/simple_car.rviz']
+        ),
     ])
