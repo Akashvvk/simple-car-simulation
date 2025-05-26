@@ -1,0 +1,4 @@
+Invoking command in '/home/akash/ros2_ws/build/simple_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akash/ros2_ws/build/simple_car -- -j12 -l12
+Invoked command in '/home/akash/ros2_ws/build/simple_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/akash/ros2_ws/build/simple_car -- -j12 -l12
+Invoking command in '/home/akash/ros2_ws/build/simple_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akash/ros2_ws/build/simple_car
+Invoked command in '/home/akash/ros2_ws/build/simple_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/akash/ros2_ws/build/simple_car
