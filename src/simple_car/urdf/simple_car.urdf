@@ -143,19 +143,18 @@
     <axis xyz="0 0 1"/>
   </joint>
 
-  <!-- Corrected Gazebo plugin for differential drive -->
+  <!-- Improved differential drive with better parameters -->
   <gazebo>
     <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
       <ros>
         <namespace>/</namespace>
       </ros>
-      <!-- Use left and right side wheels for differential drive -->
       <left_joint>left_front_joint</left_joint>
       <right_joint>right_front_joint</right_joint>
       <wheel_separation>0.35</wheel_separation>
       <wheel_diameter>0.2</wheel_diameter>
-      <max_wheel_torque>100</max_wheel_torque>
-      <max_wheel_acceleration>20.0</max_wheel_acceleration>
+      <max_wheel_torque>300</max_wheel_torque>
+      <max_wheel_acceleration>100.0</max_wheel_acceleration>
       <command_topic>cmd_vel</command_topic>
       <odometry_topic>odom</odometry_topic>
       <odometry_frame>odom</odometry_frame>
@@ -164,18 +163,10 @@
       <publish_odom_tf>true</publish_odom_tf>
       <publish_wheel_tf>false</publish_wheel_tf>
       <update_rate>100</update_rate>
-    </plugin>
-  </gazebo>
-
-  <!-- Additional plugin to make rear wheels follow -->
-  <gazebo>
-    <plugin name="joint_state_publisher" filename="libgazebo_ros_joint_state_publisher.so">
-      <ros>
-        <namespace>/</namespace>
-      </ros>
-      <update_rate>50</update_rate>
-      <joint_name>left_rear_joint</joint_name>
-      <joint_name>right_rear_joint</joint_name>
+      <!-- Better control parameters -->
+      <wheel_acceleration>2</wheel_acceleration>
+      <wheel_deceleration>4</wheel_deceleration>
+      <torque>20</torque>
     </plugin>
   </gazebo>
 
@@ -201,16 +192,20 @@
   </gazebo>
   <gazebo reference="right_rear_wheel">
     <material>Gazebo/Black</material>
-    <mu1>1.0</mu1>
-    <mu2>1.0</mu2>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <kp>1000000.0</kp>
     <kd>100.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
   </gazebo>
   <gazebo reference="left_rear_wheel">
     <material>Gazebo/Black</material>
-    <mu1>1.0</mu1>
-    <mu2>1.0</mu2>
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
     <kp>1000000.0</kp>
     <kd>100.0</kd>
+    <minDepth>0.001</minDepth>
+    <maxVel>0.1</maxVel>
   </gazebo>
 </robot>
